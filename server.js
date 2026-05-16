@@ -20,6 +20,10 @@ app.get("/",(req, res)=>{
     })
 })
 
+app.get("/doctors",(req,res)=>{
+    res.send({"Doctors":"Dr. Sachin"})
+})
+
 app.listen(port,()=>{
    console.log("Server started at ",port)
 })
