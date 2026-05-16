@@ -1,1 +1,1 @@
-console.log("Inside MongoDb")
+console.log("Inside MongoDb");
